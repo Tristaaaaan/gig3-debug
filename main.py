@@ -348,11 +348,11 @@ class SummaryScreen(Screen):
 
     def load_screen(self):
         layout = AnchorLayout()
-        self.grade = MDTextFieldRect(size_hint=(0.23, 0.06),
+        self.grade = MDTextFieldRect(size_hint=(0.2, 0.05),
                                      pos_hint={"x": 0.625, "y": 0.2425},
                                      font_size='22sp',
                                      foreground_color=(0.12, 0.58, 0.95, 1))
-        self.transmutation = MDTextFieldRect(size_hint=(0.2, 0.06),
+        self.transmutation = MDTextFieldRect(size_hint=(0.2, 0.05),
                                              pos_hint={"x": 0.625, "y": 0.16},
                                              font_size='22sp',
                                              foreground_color=(0.12, 0.58, 0.95, 1))
