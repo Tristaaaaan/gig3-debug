@@ -50,7 +50,7 @@
         font_size: "17sp"
         pos_hint:{'center_x': 0.36, 'center_y': 0.09}
         elevation: 2
-        size_hint: (0.145, 0.06)
+        size_hint: 0.145, 0.06
         on_release: app.show_alert_dialog1()
     MDRectangleFlatButton:
         text: "Next"
@@ -59,89 +59,96 @@
         font_size: "17sp"
         pos_hint:{'center_x': 0.66, 'center_y': 0.09}
         elevation: 2
-        size_hint: (0.145, 0.06)
+        size_hint: 0.145, 0.06
         on_press: app.callback1()
 
     MDTextField:
         id: midterm_written
-        hint_text: "Mid Written"
+        hint_text: "  Mid Written"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'float'
         icon_right_color: app.theme_cls.primary_color
         pos_hint:{'center_x': 0.3, 'center_y': 0.73}
-        size_hint: 0.32, 0.1
+        size_hint: 0.45, 0.1
         width:141
 
     MDTextField:
         id: midterm_practical
-        hint_text: "Mid Practical"
+        hint_text: "  Mid Practical"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'float'
         icon_right_color: app.theme_cls.primary_color
         pos_hint:{'center_x': 0.3, 'center_y': 0.58}
-        size_hint: 0.32, 0.1
+        size_hint: 0.45, 0.1
         width:141
     MDTextField:
         id: final_written
-        hint_text: "Final Written"
+        hint_text: "  Final Written"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'float'
         icon_right_color: app.theme_cls.primary_color
         pos_hint:{'center_x': 0.3, 'center_y': 0.37}
-        size_hint: 0.32, 0.1
+        size_hint: 0.45, 0.1
         width:141
     MDTextField:
         id: final_practical
-        hint_text: "Final Practical"
+        hint_text: "  Final Practical"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'float'
         icon_right_color: app.theme_cls.primary_color
         pos_hint:{'center_x': 0.3, 'center_y': 0.22}
-        size_hint: 0.32, 0.1
+        size_hint: 0.45, 0.1
         width:141
     MDTextField:
         id: midterm_written_multiplier
-        hint_text: "Multiplier"
+        hint_text: " Multiplier"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'int'
         mode: "rectangle"
         icon_right_color: app.theme_cls.primary_color
         pos_hint:{'center_x': 0.75, 'center_y': 0.74}
-        size_hint: 0.32, 0.1
+        size_hint: 0.35, 0.1
         width:110
     MDTextField:
         id: midterm_practical_multiplier
-        hint_text: "Multiplier"
+        hint_text: " Multiplier"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'int'
         mode: "rectangle"
         icon_right_color: app.theme_cls.primary_color
         pos_hint:{'center_x': 0.75, 'center_y': 0.59}
-        size_hint: 0.32, 0.1
+        size_hint: 0.35, 0.1
         width:110
     MDTextField:
         id: final_written_multiplier
-        hint_text: "Multiplier"
+        hint_text: " Multiplier"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'int'
@@ -149,20 +156,21 @@
         mode: "rectangle"
         icon_right_color: app.theme_cls.primary_color
         pos_hint:{'center_x': 0.75, 'center_y': 0.38}
-        size_hint: 0.32, 0.1
+        size_hint: 0.35, 0.1
         width:110
     MDTextField:
         id: final_practical_multiplier
-        hint_text: "Multiplier"
+        hint_text: " Multiplier"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'int'
         mode: "rectangle"
         icon_right_color: app.theme_cls.primary_color
         pos_hint:{'center_x': 0.75, 'center_y': 0.23}
-        size_hint: 0.32, 0.1
+        size_hint: 0.35, 0.1
         width:110
 
 <AttendanceScreen>
@@ -208,16 +216,17 @@
         pos_hint:{'center_y': 0.82}
     MDTextField:
         id: project_multiplier
-        hint_text: "Multiplier"
+        hint_text: " Multiplier"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'int'
         mode: "rectangle"
         icon_right_color: app.theme_cls.primary_color
         pos_hint:{'center_x': 0.765, 'center_y': 0.83}
-        size_hint: 0.32, 0.1
+        size_hint: 0.35, 0.1
         width:110
 
     MDTextField:
@@ -225,6 +234,7 @@
         hint_text: "Capsule"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'float'
@@ -237,6 +247,7 @@
         hint_text: "Proposal"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'float'
@@ -249,6 +260,7 @@
         hint_text: "Final"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'float'
@@ -264,16 +276,17 @@
         pos_hint:{'center_y': 0.6}
     MDTextField:
         id: attendance_multiplier
-        hint_text: "Multiplier"
+        hint_text: " Multiplier"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'int'
         mode: "rectangle"
         icon_right_color: app.theme_cls.primary_color
         pos_hint:{'center_x': 0.765, 'center_y': 0.61}
-        size_hint: 0.32, 0.1
+        size_hint: 0.35, 0.1
         width:110
 
     MDTextField:
@@ -281,6 +294,7 @@
         hint_text: "Days Late"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         input_filter: 'int'
         icon_right_color: app.theme_cls.primary_color
@@ -292,6 +306,7 @@
         hint_text: "Days Absent"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         input_filter: 'int'
         icon_right_color: app.theme_cls.primary_color
@@ -303,6 +318,7 @@
         hint_text: "Total Meetings"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         input_filter: 'int'
         icon_right_color: app.theme_cls.primary_color
@@ -317,16 +333,17 @@
         pos_hint:{'center_y': 0.385}
     MDTextField:
         id: participation_multiplier
-        hint_text: "Multiplier"
+        hint_text: " Multiplier"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'int'
         mode: "rectangle"
         icon_right_color: app.theme_cls.primary_color
         pos_hint:{'center_x': 0.765, 'center_y': 0.395}
-        size_hint: 0.32, 0.1
+        size_hint: 0.35, 0.1
         width:110
 
     MDTextField:
@@ -334,30 +351,33 @@
         hint_text: "To Professor"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'float'
         icon_right_color: app.theme_cls.primary_color
-        pos_hint:{'center_x': 0.25, 'center_y': 0.295}
-        size_hint: 0.35, 0.1
+        pos_hint:{'center_x': 0.275, 'center_y': 0.295}
+        size_hint: 0.4, 0.1
         width:141
     MDTextField:
         id: student
         hint_text: "To Students"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'float'
         icon_right_color: app.theme_cls.primary_color
-        pos_hint:{'center_x': 0.75, 'center_y': 0.295}
-        size_hint: 0.35, 0.1
+        pos_hint:{'center_x': 0.725, 'center_y': 0.295}
+        size_hint: 0.4, 0.1
         width:141
     MDTextField:
         id: materials
         hint_text: "To Materials"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'float'
@@ -392,16 +412,17 @@
         pos_hint:{'center_y': 0.82}
     MDTextField:
         id: exercises_multiplier
-        hint_text: "Multiplier"
+        hint_text: " Multiplier"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'int'
         mode: "rectangle"
         icon_right_color: app.theme_cls.primary_color
         pos_hint:{'center_x': 0.765, 'center_y': 0.83}
-        size_hint: 0.32, 0.1
+        size_hint: 0.35, 0.1
         width:110
 
     MDRectangleFlatButton:
@@ -429,11 +450,12 @@
         hint_text: "Lab Ex.1"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'float'
         icon_right_color: app.theme_cls.primary_color
-        pos_hint:{'center_x': 0.265, 'center_y': 0.725}
+        pos_hint:{'center_x': 0.3, 'center_y': 0.725}
         size_hint: 0.27, 0.1
         font_size: 13.5
         width:110
@@ -443,12 +465,13 @@
         hint_text: "Lab Ex.3"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'float'
         max_text_length: 3
         icon_right_color: app.theme_cls.primary_color
-        pos_hint:{'center_x': 0.265, 'center_y': 0.645}
+        pos_hint:{'center_x': 0.3, 'center_y': 0.645}
         size_hint: 0.27, 0.1
         font_size: 13.5
         width:110
@@ -457,11 +480,12 @@
         hint_text: "Lab Ex.5"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'float'
         icon_right_color: app.theme_cls.primary_color
-        pos_hint:{'center_x': 0.265, 'center_y': 0.565}
+        pos_hint:{'center_x': 0.3, 'center_y': 0.565}
         size_hint: 0.27, 0.1
         font_size: 13.5
         width:110
@@ -471,11 +495,12 @@
         hint_text: "Lab Ex.7"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'float'
         icon_right_color: app.theme_cls.primary_color
-        pos_hint:{'center_x': 0.265, 'center_y': 0.485}
+        pos_hint:{'center_x': 0.3, 'center_y': 0.485}
         size_hint: 0.27, 0.1
         font_size: 13.5
         width:110
@@ -485,12 +510,13 @@
         hint_text: "Lab Ex.9"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'float'
         max_text_length: 3
         icon_right_color: app.theme_cls.primary_color
-        pos_hint:{'center_x': 0.265, 'center_y': 0.405}
+        pos_hint:{'center_x': 0.3, 'center_y': 0.405}
         size_hint: 0.27, 0.1
         font_size: 13.5
         width:110
@@ -499,11 +525,12 @@
         hint_text: "Lab Ex.11"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'float'
         icon_right_color: app.theme_cls.primary_color
-        pos_hint:{'center_x': 0.265, 'center_y': 0.325}
+        pos_hint:{'center_x': 0.3, 'center_y': 0.325}
         size_hint: 0.27, 0.1
         font_size: 13.5
         width:110
@@ -512,11 +539,12 @@
         hint_text: "Lab Ex.13"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'float'
         icon_right_color: app.theme_cls.primary_color
-        pos_hint:{'center_x': 0.265, 'center_y': 0.245}
+        pos_hint:{'center_x': 0.3, 'center_y': 0.245}
         size_hint: 0.27, 0.1
         font_size: 13.5
         width:110
@@ -526,11 +554,12 @@
         hint_text: "Lab Ex.2"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'float'
         icon_right_color: app.theme_cls.primary_color
-        pos_hint:{'center_x': 0.75, 'center_y': 0.7}
+        pos_hint:{'center_x': 0.7, 'center_y': 0.7}
         size_hint: 0.27, 0.1
         font_size: 13.5
         width:110
@@ -539,12 +568,13 @@
         hint_text: "Lab Ex.4"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'float'
         max_text_length: 3
         icon_right_color: app.theme_cls.primary_color
-        pos_hint:{'center_x': 0.75, 'center_y': 0.62}
+        pos_hint:{'center_x': 0.7, 'center_y': 0.62}
         size_hint: 0.27, 0.1
         font_size: 13.5
         width:110
@@ -553,11 +583,12 @@
         hint_text: "Lab Ex.6"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'float'
         icon_right_color: app.theme_cls.primary_color
-        pos_hint:{'center_x': 0.75, 'center_y': 0.54}
+        pos_hint:{'center_x': 0.7, 'center_y': 0.54}
         size_hint: 0.27, 0.1
         font_size: 13.5
         width:110
@@ -566,11 +597,12 @@
         hint_text: "Lab Ex.8"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'float'
         icon_right_color: app.theme_cls.primary_color
-        pos_hint:{'center_x': 0.75, 'center_y': 0.46}
+        pos_hint:{'center_x': 0.7, 'center_y': 0.46}
         size_hint: 0.27, 0.1
         font_size: 13.5
         width:110
@@ -579,12 +611,13 @@
         hint_text: "Lab Ex.10"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'float'
         max_text_length: 3
         icon_right_color: app.theme_cls.primary_color
-        pos_hint:{'center_x': 0.75, 'center_y': 0.38}
+        pos_hint:{'center_x': 0.7, 'center_y': 0.38}
         size_hint: 0.27, 0.1
         font_size: 13.5
         width:110
@@ -593,11 +626,12 @@
         hint_text: "Lab Ex.12"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'float'
         icon_right_color: app.theme_cls.primary_color
-        pos_hint:{'center_x': 0.75, 'center_y': 0.3}
+        pos_hint:{'center_x': 0.7, 'center_y': 0.3}
         size_hint: 0.27, 0.1
         font_size: 13.5
         width:110
@@ -606,11 +640,12 @@
         hint_text: "Lab Ex.14"
         helper_text_mode: "persistent"
         required: True
+        font_size: '20sp'
         hint_text_font_size: '12sp'
         icon_right: "percent"
         input_filter: 'float'
         icon_right_color: app.theme_cls.primary_color
-        pos_hint:{'center_x': 0.75, 'center_y': 0.22}
+        pos_hint:{'center_x': 0.7, 'center_y': 0.22}
         size_hint: 0.27, 0.1
         font_size: 13.5
         width:110
@@ -659,7 +694,7 @@
         md_bg_color: 'green'
         text_color: "white"
         font_size: "17sp"
-        pos_hint:{'center_x': 0.5, 'center_y': 0.09}
+        pos_hint:{'center_x': 0.6, 'center_y': 0.09}
         elevation: 2
         size_hint: (0.145, 0.06)
         on_press: app.callback4()
@@ -668,7 +703,7 @@
         md_bg_color: 'green'
         text_color: "white"
         font_size: "17sp"
-        pos_hint:{'center_x': 0.75, 'center_y': 0.09}
+        pos_hint:{'center_x': 0.85, 'center_y': 0.09}
         elevation: 2
         size_hint: (0.145, 0.06)
         on_press: app.stop()
